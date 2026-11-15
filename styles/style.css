@@ -54,3 +54,23 @@ ol {
   justify-content: center;
   align-items: center;
 }
+.content {
+  display: flex;
+  align-items: flex-end;
+  width: 1140px;
+  gap: 30px;
+}
+.content-details {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.content__list-container {
+  height: 298px;
+  overflow-y: auto;
+}
