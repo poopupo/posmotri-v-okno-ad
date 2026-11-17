@@ -93,8 +93,33 @@ object-fit: cover;
   display:flex;
   align-items: flex-start;
 }
-.content__video-card-thuumbnail {
+.content__video-card-thumbnail {
   height: 103px;
   min-width: 194px;
   object-fit: cover;
+}
+.content__video-card-description-container {
+  flex-grow: 1;
+}
+.search-form__fieldset-title {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 0.94;
+  text-transform: uppercase;
+}
+.content__accent {
+  color: #545050;
+}
+
+.content__card-link {
+  color: inherit;
+  text-decoration: none;
 }
